@@ -1,0 +1,248 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.center {
+  max-width: 960px;
+  min-width: 320px;
+  width: 100%;
+  height: inherit;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.wrapper {
+  width: 100%;
+  font-family: SansSerif;
+  background-color: white;
+}
+.wrapper .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: inherit;
+}
+.wrapper .wraps {
+  max-width: 460px;
+  min-width: 300px;
+  width: 100%;
+  text-align: center;
+}
+.wrapper a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+.wrapper header {
+  min-height: 73px;
+  padding-top: 29px;
+  clear: both;
+  background: center 0 white url("../assets/img/background-top.png");
+  background-size: cover;
+}
+.wrapper header a {
+  min-height: 20px;
+}
+.wrapper header .logo {
+  background: url("../assets/img/logo.png") no-repeat;
+  height: 43px;
+  width: 38px;
+  margin-left: 20px;
+  float: left;
+}
+.wrapper header span {
+  font-family: Biko_Regular;
+  font-size: 2.7em;
+  display: inline-block;
+  margin-top: 12px;
+  margin-left: 48px;
+}
+.wrapper header nav {
+  float: right;
+  margin-bottom: 50px;
+}
+.wrapper header nav ul {
+  display: flex;
+}
+.wrapper header nav ul li {
+  font-size: 1.8em;
+}
+.wrapper header nav ul li a {
+  padding: 10px 32px;
+  margin: 0 12px;
+  display: block;
+  border: 3px solid transparent;
+}
+.wrapper header nav ul li a:hover {
+  border-color: black;
+}
+.wrapper header .top-block {
+  position: relative;
+  min-height: 50px;
+  width: inherit;
+  clear: both;
+  padding-bottom: 90px;
+}
+.wrapper header .top-block .main-photo {
+  background: url("../assets/img/logoBig.png") no-repeat;
+  max-width: 557px;
+  min-width: 250px;
+  width: 100%;
+  height: 186px;
+  background-size: contain;
+}
+.wrapper header .top-block span {
+  display: block;
+}
+.wrapper header .top-block span:nth-child(3) {
+  font-size: 3.6em;
+  margin: 0 0 50px 10%;
+}
+.wrapper header .top-block span:nth-child(4) {
+  font-size: 2.2em;
+  text-align: center;
+  margin: 0 6% 0 1%;
+}
+.wrapper header .top-block .legs-block {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  right: 0;
+  top: 0;
+}
+.wrapper header .top-block .legs-block .leg {
+  position: absolute;
+  background: url("../assets/img/leg.png");
+  width: 59px;
+  height: 51px;
+  display: none;
+}
+.wrapper header .top-block .legs-block .leg1 {
+  top: 50px;
+}
+.wrapper header .top-block .legs-block .leg2 {
+  top: 20px;
+  left: 100px;
+}
+.wrapper header .top-block .legs-block .leg3 {
+  top: 90px;
+  left: 180px;
+  transform: rotate(20deg);
+}
+.wrapper header .top-block .legs-block .leg4 {
+  top: 130px;
+  right: 50px;
+  transform: rotate(50deg);
+}
+.wrapper header .top-block .legs-block .leg5 {
+  bottom: 140px;
+  right: 0;
+  transform: rotate(70deg);
+}
+.wrapper header .top-block .legs-block .leg6 {
+  bottom: 50px;
+  right: 0;
+  transform: rotate(90deg);
+}
+.wrapper main {
+  min-height: 50px;
+  width: inherit;
+}
+.wrapper main .features {
+  width: inherit;
+  min-height: 50px;
+  background-color: #f5f9f7;
+  padding: 50px 0;
+}
+.wrapper main .features .features-wraps {
+  text-align: center;
+}
+.wrapper main .features .features-wraps span {
+  display: block;
+}
+.wrapper main .features .features-wraps span:first-child {
+  margin-bottom: 50px;
+  font-size: 3.3em;
+}
+.wrapper main .features .features-wraps span:nth-child(2) {
+  font-size: 2.2em;
+  margin-bottom: 50px;
+}
+.wrapper main .features .wraps-features-mac {
+  background: center url("../assets/img/mac-screen.png") no-repeat;
+  background-size: contain;
+  max-width: 460px;
+  min-width: 300px;
+  width: 100%;
+  height: 284px;
+}
+.wrapper main .buy-it {
+  min-height: 260px;
+  width: inherit;
+  background-color: #f5f9f7;
+  margin-top: 20px;
+}
+.wrapper main .buy-it .wrap {
+  height: 260px;
+}
+.wrapper main .buy-it .wraps-text span {
+  font-size: 5.8em;
+}
+.wrapper main .buy-it .wraps-button button {
+  cursor: pointer;
+  font-family: SansSerif;
+  font-size: 3em;
+  background-color: #347a51;
+  outline: none;
+  padding: 16px 30px;
+  border: 0;
+}
+.wrapper main .buy-it .wraps-button button:hover {
+  background-color: #37885c;
+}
+.wrapper footer {
+  min-height: 73px;
+  padding-top: 100px;
+  background: center 0 white url("../assets/img/background-bottom.png");
+  background-size: cover;
+  text-align: center;
+}
+.wrapper footer span {
+  font-size: 1.8em;
+  display: block;
+  padding: 50px 0 20px 0;
+}
+.wrapper footer .wraps-about {
+  display: flex;
+  justify-content: space-around;
+}
+.wrapper footer .wraps-about a {
+  font-size: 2em;
+}
+.wrapper footer .wraps-about a:hover {
+  text-shadow: 1px 1px 0.5px #737373;
+}
+.wrapper footer .wraps-a {
+  display: flex;
+  justify-content: space-around;
+}
+.wrapper footer .wraps-a a:first-child {
+  display: block;
+  background: url("../assets/img/facebook.png");
+  width: 46px;
+  height: 46px;
+}
+.wrapper footer .wraps-a a:nth-child(2) {
+  display: block;
+  background: url("../assets/img/g+.png");
+  width: 47px;
+  height: 47px;
+}
+.wrapper footer .wraps-a a:nth-child(3) {
+  display: block;
+  background: url("../assets/img/twitter.png");
+  width: 46px;
+  height: 46px;
+}

@@ -1,0 +1,46 @@
+@media screen and (max-width: 425px) {
+  header .top-block .main-photo {
+    height: 140px;
+  }
+
+  body .wrapper header nav {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+  }
+  body .wrapper header nav ul {
+    display: none;
+  }
+  body .wrapper header nav:before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 0;
+    border: 2px solid black;
+    top: 17px;
+  }
+  body .wrapper header nav:after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 0;
+    border: 2px solid black;
+    top: 25px;
+  }
+
+  .top-block .main-photo {
+    margin: 45px 0 0 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper header .top-block .legs-block {
+    display: none;
+  }
+  .wrapper footer {
+    padding-top: 40px;
+  }
+  .wrapper footer .wraps-about {
+    padding-bottom: 30px;
+  }
+}
